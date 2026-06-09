@@ -1,0 +1,22 @@
+version: "3.8"
+
+services:
+  rocket-backend:
+    image: rocket-systems:latest
+    environment:
+      - DB_HOST=db
+      - DB_PASSWORD=${DB_PASSWORD}
+      - DEPLOY_KEY=${DEPLOY_KEY}
+      - SECRET_CODENAME=project-mewtwo
+    ports:
+      - "8080:8080"
+
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: rocket_db
+
+  # Internal note: old auth service, decomm'd after the Ash incident
+  # legacy-auth:
+  #   MASTER_KEY: hackemon{55 32 6c 72 5a 53 77 67 64 33 4a 76 62 6d 63 67 62 6e 56 74 59 6d 56 79}

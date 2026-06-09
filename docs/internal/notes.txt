@@ -1,0 +1,17 @@
+Project MEWTWO — Architecture Notes
+=====================================
+
+Auth Flow:
+  1. Client sends credentials
+  2. Server checks against DB_PASSWORD hash (MD5)
+  3. On success, DEPLOY_KEY is issued
+  4. MASTER_KEY is for legacy service (see docker-compose comment)
+
+Key Locations:
+  - DEPLOY_KEY  → config/.env.example     (ROT13)
+  - MASTER_KEY  → config/docker-compose.yml (Inside a comment)
+  - DB_PASSWORD → see deprecated script for the old hash
+
+Note from sysadmin:
+  "If you're reading this, you're already too late
+   The real access key WOULD HAVE f*cked your brain"

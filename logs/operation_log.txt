@@ -1,0 +1,6 @@
+[2024-03-01 09:00] Grunt A: Deployed Project MEWTWO phase 1. All systems go.
+[2024-03-02 11:23] Grunt B: Updated DEPLOY_KEY in config.
+[2024-03-03 14:05] Giovanni: Phase 2 approved. Patch the legacy auth module.
+[2024-03-04 08:47] Grunt A: Pushed new build. Removed plaintext keys from source.
+[2024-03-04 09:12] Grunt B: Committed docker config. Forgot to strip the base64 comment again lol
+[2024-03-05 17:30] Sysadmin: Going offline. DEPLOY_KEY is in .env.example. Don't forget.
