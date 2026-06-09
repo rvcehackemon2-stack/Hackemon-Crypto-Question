@@ -13,5 +13,5 @@ Key Locations:
   - DB_PASSWORD → see deprecated script for the old hash
 
 Note from sysadmin:
-  "If you're reading this, you're already too late
+  "If you're reading this, you're already TOO late
    The real access key WOULD HAVE f*cked your brain"
