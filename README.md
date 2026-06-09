@@ -35,4 +35,4 @@ rocket-ctf/
 All systems operational. Giovanni has approved Phase 2.
 
 > **Recruit Note:** Our sysadmin encoded the deployment key before logging off.
-> Something that will supposedly f*ck our minds
+> Something that will supposedly f*ck our brains
