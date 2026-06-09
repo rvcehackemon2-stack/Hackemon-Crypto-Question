@@ -14,7 +14,7 @@ if [ -z "$DEPLOY_KEY" ]; then
 fi
 
 echo "Deploy key loaded. Remember: it has been rotated for security."
-echo "Sysadmin always uses the same rotation method — check the logs."
+echo "Sysadmin always says to check the logs."
 
 docker-compose up -d
 echo "Deployment complete. Giovanni is watching."
