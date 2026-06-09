@@ -35,5 +35,4 @@ rocket-ctf/
 All systems operational. Giovanni has approved Phase 2.
 
 > **Recruit Note:** Our sysadmin encoded the deployment key before logging off.
-> Something about it being "not quite readable" but "still the same, just shifted."
-> Check the config files if you need access.
+> Something that will supposedly f*ck our minds
